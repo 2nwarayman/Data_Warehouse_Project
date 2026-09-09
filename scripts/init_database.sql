@@ -1,3 +1,25 @@
+/*
+=============================================================
+Create Database and Schemas
+=============================================================
+Script Purpose:
+    This script creates a new DataWarehouse database and
+    initializes the Bronze, Silver, and Gold schemas.
+
+    If the DataWarehouse database already exists, it will be
+    dropped and recreated to ensure a clean environment.
+
+WARNING:
+    Running this script will permanently delete the existing
+    DataWarehouse database and all its data.
+
+    Make sure you have a backup if the database contains
+    important data.
+=============================================================
+*/
+
+
+
 -- Use the master database
 USE master;
 GO
