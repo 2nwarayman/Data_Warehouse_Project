@@ -103,3 +103,28 @@ The data flows through the following process:
 CRM CSV Files ──────┐
                     ├──> Bronze ──> Silver ──> Gold ──> Analytics
 ERP CSV Files ──────┘
+
+
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file showing ETL techniques and methods
+│   ├── data_architecture.drawio        # Project architecture diagram
+│   ├── data_catalog.md                 # Dataset fields and metadata
+│   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_models.drawio              # Data model / Star Schema
+│   └── naming-conventions.md           # Naming conventions for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   └── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and data quality checks
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # Project license
+├── .gitignore                          # Files and directories ignored by Git
+└── requirements.txt                    # Project requirements
