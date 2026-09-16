@@ -10,7 +10,7 @@ The project covers the complete data workflow, starting from raw data ingestion 
 
 ## 🏗️ Data Architecture
 
-<img width="1442" height="1004" alt="Architecture" src="https://github.com/user-attachments/assets/02888236-974a-41d3-bad5-1e22d4640549" />
+<img width="1442" height="1004" alt="Architecture" src="https://github.com/user-attachments/assets/b38377db-cc01-4df9-9b3c-ab157d65dc9a" />
 
 The project follows the **Medallion Architecture**, consisting of three layers:
 
