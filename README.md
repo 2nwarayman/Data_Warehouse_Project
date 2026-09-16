@@ -103,8 +103,10 @@ The data flows through the following process:
 CRM CSV Files ──────┐
                     ├──> Bronze ──> Silver ──> Gold ──> Analytics
 ERP CSV Files ──────┘
+```
 
-
+## 📂 Repository Structure
+```
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -128,3 +130,4 @@ data-warehouse-project/
 ├── LICENSE                             # Project license
 ├── .gitignore                          # Files and directories ignored by Git
 └── requirements.txt                    # Project requirements
+```
